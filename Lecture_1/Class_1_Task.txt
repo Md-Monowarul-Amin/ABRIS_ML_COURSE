@@ -1,0 +1,68 @@
+Here is a well-structured assignment task for building a calculator using Python:
+
+---
+
+### **Assignment Title:** Building a Simple Calculator in Python
+
+---
+
+### **Objective:**
+
+The objective of this assignment is to develop a functional calculator using Python that can perform basic arithmetic operations. This task will help students understand conditional statements, functions, and user input handling in Python.
+
+---
+
+### **Problem Statement:**
+
+Design and implement a command-line based calculator in Python that can perform the following arithmetic operations:
+
+* Addition
+* Subtraction
+* Multiplication
+* Division
+* Modular Arithmatic
+
+The program should allow users to enter two numbers and choose an operation. It should display the result and offer the option to perform another calculation or exit the program.
+
+---
+
+### **Requirements:**
+
+1. Create a function for each operation: `add(a, b)`, `subtract(a, b)`, `multiply(a, b)`, and `divide(a, b)`, `mod(a, b)`.
+2. Handle invalid inputs (e.g., non-numeric inputs, division by zero).
+3. Allow the user to choose the operation from a menu.
+4. Use a loop to allow multiple calculations until the user decides to quit.
+5. Display appropriate messages and results clearly.
+
+---
+
+### **Sample Output:**
+
+```
+Welcome to Python Calculator!
+Select operation:
+1. Add
+2. Subtract
+3. Multiply
+4. Divide
+5. Mod
+Enter your choice (1/2/3/4): 2
+Enter first number: 15
+Enter second number: 5
+Result: 15 - 5 = 10
+
+Do you want to perform another calculation? (yes/no): yes
+
+...
+
+Thank you for using the calculator!
+Calculation History:
+1. 15 - 5 = 10
+2. 8 * 2 = 16
+3. 20 / 4 = 5.0
+```
+
+
+
+
+
